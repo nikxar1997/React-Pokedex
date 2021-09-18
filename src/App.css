@@ -1,0 +1,31 @@
+:root {
+  --background: #ffffff;
+  --backgroundDark: #fafafa;
+  --primaryRed: #ff1d41;
+  --primaryBlue: #40c6ff;
+  --primaryGray: #e8e8ed;
+  --secondaryBlack: #3f3f48;
+  --secondaryDarkRed: #ec1039;
+  --secondaryDarkBlue: #3b97ea;
+}
+
+/* Main screen */
+.mainScreen {
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* PageTitle */
+.mainTitle {
+  font-weight: bold;
+  color: var(--primaryGray);
+  font-size: 30px;
+  text-align: center;
+  background-color: var(--primaryRed);
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-color: var(--secondaryDarkRed);
+}
